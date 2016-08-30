@@ -2,6 +2,8 @@
 # A sample Gemfile
 source 'http://rubygems.org'
 
+ruby '2.2.4'
+
 # gem "rails"
 gem 'sinatra', '~> 1.4'
 gem 'jwt', '~> 1.5'

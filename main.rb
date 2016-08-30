@@ -9,6 +9,10 @@ configure do
   enable :cross_origin
 end
 
+get '/' do
+  "hello world"
+end 
+
 class InvalidTokenError < StandardError
 end
 
@@ -28,11 +32,6 @@ error InvalidTokenError do
   'Invalid token'
 end
 
-
-
-get '/' do
-  "hello world"
-end 
 
 get '/secured/ping' do
   validate_token env
