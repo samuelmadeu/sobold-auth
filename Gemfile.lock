@@ -3,6 +3,7 @@ GEM
   specs:
     dotenv (2.1.1)
     jwt (1.5.4)
+    puma (3.6.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -19,8 +20,12 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   jwt (~> 1.5)
+  puma
   sinatra (~> 1.4)
   sinatra-cross_origin (~> 0.3.2)
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.12.5
